@@ -6,12 +6,6 @@
             "use": "@vercel/node"
         }
     ],
-    "routes": [
-        {
-            "src": "/api/runway",
-            "dest": "/api/runway.js"
-        }
-    ],
     "headers": [
         {
             "source": "/api/(.*)",
@@ -24,3 +18,4 @@
         }
     ]
 }
+
