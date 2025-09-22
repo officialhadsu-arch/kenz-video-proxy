@@ -1,0 +1,11 @@
+{
+  "name": "kenz-video-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for Kenz Video Generator",
+  "main": "api/runway.js",
+  "scripts": {
+    "start": "node api/runway.js"
+  },
+  "author": "Kenz",
+  "license": "ISC"
+}
